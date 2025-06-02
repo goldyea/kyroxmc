@@ -192,7 +192,7 @@ const AboutUs: FC = () => {
                     </CarouselItem>
                     <CarouselItem>
                       <Image
-                        src="/blurred2.png"
+                        src="https://kyroxmc.vercel.app/blurred.png"
                         alt="Future Game Modes"
                         width={600}
                         height={300}
