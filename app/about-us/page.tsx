@@ -183,7 +183,7 @@ const AboutUs: FC = () => {
                   <CarouselContent>
                     <CarouselItem>
                       <Image
-                        src="/blurred.jpg"
+                        src="/blurred.png"
                         alt="Future Expansion"
                         width={600}
                         height={300}
@@ -192,7 +192,7 @@ const AboutUs: FC = () => {
                     </CarouselItem>
                     <CarouselItem>
                       <Image
-                        src="/blurred2.jpg"
+                        src="/blurred2.png"
                         alt="Future Game Modes"
                         width={600}
                         height={300}
