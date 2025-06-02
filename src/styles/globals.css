@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Minecraftia";
+  src: url("/fonts/Minecraftia-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MinecraftTen";
+  src: url("/fonts/MinecraftTen-VGORe.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text-outline {
+  color: white;
+  -webkit-text-stroke: 1px black; /* adjust as needed */
+}
+
+html,
+body {
+  @apply scroll-smooth;
+  scrollbar-gutter: stable;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+::selection {
+  @apply bg-purple-900 text-white;
+}
+
+*::-webkit-scrollbar {
+  @apply w-2 h-1;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-zinc-100 dark:bg-zinc-900;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-500 rounded-full;
+}
