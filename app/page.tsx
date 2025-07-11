@@ -22,7 +22,7 @@ const Home: FC = () => {
     const fetchServerStatus = async () => {
       try {
         const response = await fetch(
-          "https://mcapi.us/server/status?ip=DE3.FreeMinecraftHost.com:29691",
+          "https://mcapi.us/server/status?ip=mc.hypixel.net",
         );
         const data = await response.json();
         setServerStatus({
