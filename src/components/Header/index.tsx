@@ -48,7 +48,7 @@ const Header: FC = () => {
               <li>
                 <Link
                   className="rounded-full px-6 py-3 font-medium transition-colors hover:bg-black/5 hover:dark:bg-white/5"
-                  href="http://51.195.14.232:25697"
+                  href="https://www.google.com/maps/"
                   target="_blank"
                 >
                   Map
